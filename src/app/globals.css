@@ -5,4 +5,5 @@
 
 body{background: #000; font-family: "Open Sans", sans-serif; color: white;}
 
+.cursor{cursor: pointer;}
 button{min-width: auto !important;}
