@@ -5,7 +5,9 @@ import logo from "../../../assets/images/logo.png";
 const Header = () => {
     return(
         <header>
-            <Image alt="logo" src={logo}/>
+            <div className="row">
+                
+            </div>
         </header>
     )
 }
