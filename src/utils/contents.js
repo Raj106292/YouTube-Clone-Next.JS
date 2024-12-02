@@ -1,0 +1,10 @@
+import React from "react";
+import { FiFilm } from "react-icons/fi";
+import { CgMusicNote } from "react-icons/cg";
+import { ImNewspaper } from "react-icons/im";
+import { IoGameControllerSharp } from "react-icons/io5";
+import { FiSettings, FiHelpCircle } from "react-icons/fi";
+import { AiFillHome, AiOutlineFlag } from "react-icons/ai";
+import { GiDiamondTrophy, GiEclipse } from "react-icons/gi";
+import { MdLocalFireDepartment, MdLiveTv } from "react-icons/md";
+import { RiLightbulbLine ,RiFeedbackLine } from "react-icons/ri";
