@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 "use client"
 import { fetchDataFromApi } from '@/utils/api';
 import { createContext, useEffect, useState } from 'react';
@@ -5,20 +6,23 @@ import { createContext, useEffect, useState } from 'react';
 const Context = createContext();
 
 const AppContext = (props) => {
-    const [data, setData] = useState([]);
+    const [selectedCat, setSelectedCat] = useState("New");
 
     useEffect(() => {
-        fetData('search/?q=New')
-    }, [data])
+        fetData(`search/?q=${selectedCat}`)
+    }, [])
 
-    const fetData = async(url) => {
-        const data = await fetchDataFromApi(url);
-        console.log("my data", data);
+    const fetData = (url) => {
+        fetchDataFromApi(url).then((res) => {
+            console.log("my data", res);
+            setSelectedCat(res);
+        })
     }
 
     const value = {
-        data,
-        setData
+        selectedCat,
+        setSelectedCat,
+        fetData
     }
 
     return(
