@@ -1,4 +1,4 @@
-header{width: 100%; height: 70px; margin: auto; padding: 10px 0px;}
+header{width: 100%; height: 70px; margin: auto; padding: 10px 0px; position: fixed; top: 0px; left: 0px; z-index: 10;}
 header .button{width: 50px !important; height: 50px !important; color: white;}
 header .button svg{font-size: 25px !important;}
 header .logo img{width: 100px; height: auto;}

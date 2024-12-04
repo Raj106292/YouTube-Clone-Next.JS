@@ -1,0 +1,6 @@
+.sidebar{height: calc(100vh - 70px); position: fixed; top: 70px; width: 15%;}
+.sidebar button{width: 100%; text-align: left; justify-content: start; color: white; padding: 10px 20px; border-radius: 10px !important; text-transform: capitalize;}
+
+.sidebar button:hover{background: rgba(255, 255, 255, 0.1) !important;}
+.sidebar button .icon{display: flex; width: 30px;}
+.sidebar button .icon svg{font-size: 20px !important;}

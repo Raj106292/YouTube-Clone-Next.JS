@@ -7,3 +7,6 @@ body{background: #000; font-family: "Open Sans", sans-serif; color: white;}
 
 .cursor{cursor: pointer;}
 button{min-width: auto !important;}
+
+.wrapper{width: 100%; height: auto; padding: 15px 20px;}
+.wrapper .sidebarWrapper{width: 15%;}
