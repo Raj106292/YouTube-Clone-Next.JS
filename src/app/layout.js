@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./components/Header/page";
 import AppContext from '@/AppContext/context';
 import "./globals.css";
+import Sidebar from './components/Sidebar/page';
 
 export const metadata = {
   title: "MyTube",
@@ -15,7 +16,15 @@ export default function RootLayout({ children }) {
         <section className="main">
           <AppContext>
             <Header />
-            {children}
+            <div className='wrapper d-flex'>
+              <div className='sidebarWrapper'>
+                <Sidebar />
+              </div>
+
+              <div className='content'>
+                {children}
+              </div>
+            </div>
           </AppContext>
         </section>
       </body>
