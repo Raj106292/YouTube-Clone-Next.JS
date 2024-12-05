@@ -9,8 +9,8 @@ const Sidebar = () => {
                 categories?.map((category, index) => {
                     return (
                         <Button key={index}>
-                            <span className="icon">{category.icon}</span>
-                            {category.name}
+                            <span className="icon">{category?.icon}</span>
+                            {category?.name === "New" ? "Home" : category?.name}
                         </Button>
                     )
                 })

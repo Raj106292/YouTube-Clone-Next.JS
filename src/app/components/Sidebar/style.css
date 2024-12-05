@@ -1,4 +1,4 @@
-.sidebar{height: calc(100vh - 70px); position: fixed; top: 70px; width: 15%;}
+.sidebar{height: calc(100vh - 70px); position: fixed; top: 70px; width: 15%; max-height: 90vh; overflow-y: scroll; padding-bottom: 30px !important;}
 .sidebar button{width: 100%; text-align: left; justify-content: start; color: white; padding: 10px 20px; border-radius: 10px !important; text-transform: capitalize;}
 
 .sidebar button:hover{background: rgba(255, 255, 255, 0.1) !important;}

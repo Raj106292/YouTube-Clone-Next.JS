@@ -1,16 +1,17 @@
 import React from "react";
+import { GoHome } from "react-icons/go";
 import { FiFilm } from "react-icons/fi";
 import { CgMusicNote } from "react-icons/cg";
 import { ImNewspaper } from "react-icons/im";
 import { IoGameControllerSharp } from "react-icons/io5";
 import { FiSettings, FiHelpCircle } from "react-icons/fi";
-import { AiFillHome, AiOutlineFlag } from "react-icons/ai";
+import { AiOutlineFlag } from "react-icons/ai";
 import { GiDiamondTrophy, GiEclipse } from "react-icons/gi";
 import { MdLocalFireDepartment, MdLiveTv } from "react-icons/md";
 import { RiLightbulbLine, RiFeedbackLine } from "react-icons/ri";
 
 export const categories = [
-    { name: "New", icon: <AiFillHome />, type: "Home" },
+    { name: "New", icon: <GoHome />, type: "Home" },
     { name: "Trending", icon: <MdLocalFireDepartment />, type: "category" },
     { name: "Music", icon: <CgMusicNote />, type: "category" },
     { name: "Films", icon: <FiFilm />, type: "category" },
